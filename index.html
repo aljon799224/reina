@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>For Reina Katrina Guevarra Pineda</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			:root {
+				--bg-gradient: linear-gradient(135deg, #c3ecf7, #fddde6);
+				--glass-bg: rgba(255, 255, 255, 0.2);
+				--glass-border: rgba(255, 255, 255, 0.4);
+				--primary-color: #ff7eb9;
+				--secondary-color: #7afcff;
+				--accent-color: #f6cd61;
+			}
+
+			body {
+				margin: 0;
+				font-family: "Poppins", sans-serif;
+				background: var(--bg-gradient);
+				color: #333;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				min-height: 100vh;
+				padding: 1rem;
+				overflow-x: hidden;
+			}
+
+			.container {
+				backdrop-filter: blur(20px);
+				background: var(--glass-bg);
+				border: 2px solid var(--glass-border);
+				border-radius: 25px;
+				padding: 2rem;
+				max-width: 650px;
+				width: 100%;
+				box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+				animation: fadeIn 1s ease-out;
+				position: relative;
+			}
+
+			h1 {
+				font-family: "Pacifico", cursive;
+				color: var(--primary-color);
+				margin-bottom: 0.5rem;
+				font-size: 2.2rem;
+				text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+			}
+
+			p {
+				font-size: 1.1rem;
+				line-height: 1.7;
+				margin-bottom: 1rem;
+			}
+
+			footer {
+				margin-top: 1rem;
+				font-size: 0.95rem;
+				color: #555;
+			}
+
+			.decor {
+				position: absolute;
+				font-size: 2rem;
+				opacity: 0.7;
+				animation: float 6s infinite ease-in-out;
+			}
+
+			.heart {
+				top: -10px;
+				left: -10px;
+				color: var(--primary-color);
+				animation-delay: 0s;
+			}
+
+			.star {
+				top: 20px;
+				right: -10px;
+				color: var(--accent-color);
+				animation-delay: 2s;
+			}
+
+			.sparkle {
+				bottom: -10px;
+				left: 30px;
+				color: var(--secondary-color);
+				animation-delay: 4s;
+			}
+
+			@keyframes fadeIn {
+				from {
+					opacity: 0;
+					transform: translateY(20px);
+				}
+				to {
+					opacity: 1;
+					transform: translateY(0);
+				}
+			}
+
+			@keyframes float {
+				0%,
+				100% {
+					transform: translateY(0) rotate(0deg);
+				}
+				50% {
+					transform: translateY(-10px) rotate(10deg);
+				}
+			}
+
+			@media (max-width: 480px) {
+				.container {
+					padding: 1.5rem;
+				}
+				h1 {
+					font-size: 1.8rem;
+				}
+				p {
+					font-size: 1rem;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<main class="container">
+			<div class="decor heart">❤️</div>
+			<div class="decor star">⭐</div>
+			<div class="decor sparkle">✨</div>
+			<h1>For Reina Katrina Guevarra Pineda 💖</h1>
+			<p>
+				Thank you for accepting me just the way I am — for your patience, your
+				understanding, and your kindness. You’re my favorite blessing. 🌸
+			</p>
+			<p>
+				I’ll keep working hard to become the man you deserve. I promise to
+				always support you and lift you up, no matter what. You inspire me every
+				day. 🌟
+			</p>
+			<p>
+				Don’t ever stop chasing your career dreams and personal goals — you’re
+				unstoppable, Reina. Keep believing in yourself because you truly are
+				amazing and capable of anything you set your heart to. ✨
+			</p>
+			<p>
+				Remember: you’re not just my motivation — you’re my forever muse. 💕
+			</p>
+			<footer>— Your #1 fan (Aljon pogi) 😘</footer>
+		</main>
+	</body>
+</html>
